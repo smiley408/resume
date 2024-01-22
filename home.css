@@ -1,0 +1,83 @@
+*
+{
+    transition: 0.5s;
+}
+body{
+    background-color: rgb(192, 219, 243);
+}
+.head
+{
+    padding: 1rem;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+.head a
+{
+    text-decoration: none;
+    color:black;
+}
+.cv
+{
+    background-color: rgb(235, 170, 170);
+    border-radius: 20px;
+    padding: 0.5rem;
+}
+
+.one
+{
+    display: flex;
+    color: rgb(19, 17, 17);
+    justify-content: space-between;
+    font-family: 'Acme', sans-serif;
+font-family: 'Merienda', cursive;
+}
+.text
+{
+    margin-top: 10rem;
+}
+#qua
+{
+    display: flex;
+    flex-direction: column;
+}
+.sslc
+{
+    display: flex;
+    justify-content: space-around;
+}
+.hs
+{
+    display: flex;
+    justify-content: space-around;
+}
+.dip
+{
+    display: flex;
+    justify-content: space-around;
+}
+.cse
+{
+    display: flex;
+    justify-content: space-around;
+}
+.ct
+{
+    display: flex;
+    justify-content: space-around;
+}
+.topic
+{
+    color: red;
+}
+.icon
+{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+.icon a :hover
+{
+    filter:drop-shadow(1px 1px 10px rgb(0, 0, 0)) ;
+    width: 100px;
+}
